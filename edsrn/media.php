@@ -128,7 +128,7 @@
         echo "<p>Faltas1: $faltas1</p>";
         echo "<p>Faltas2: $faltas2</p>";
         echo "Total faltas:" . $totalfaltas ;  
-        if ($media >= 60 && $faltas1 <= 10 && $faltas2 <= 10) {
+        if ($nota_de_trabalho >= 60 && $faltas1 <= 10 && $faltas2 <= 10) {
             echo "<p>Situação: Aprovado e bom trabalho     </p>";
         } else {
             echo "<p>Situação: Reprovado</p>";
